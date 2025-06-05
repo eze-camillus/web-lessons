@@ -1,0 +1,21 @@
+
+
+1. Birth of the Web (1989–1991)
+The World Wide Web was invented by Tim Berners-Lee, a British scientist at CERN, in 1989. It was initially designed to help researchers share information. By 1991, the first website was launched, and the web became publicly accessible.
+
+2. The Early Web (1991–1995)
+This era saw the creation of basic, text-heavy websites. Browsers like Mosaic (1993) and Netscape Navigator (1994) made the web more accessible to everyday users. Websites were mostly static HTML pages.
+
+3. Dot-com Boom (1995–2000)
+Commercial interest exploded. Companies like Amazon (1994) and Google (1998) were founded. JavaScript (1995) enabled interactive websites. The number of websites skyrocketed, leading to the dot-com bubble.
+
+4. Web 2.0 (2000–2010)
+The web became more interactive and user-driven. Social media platforms like Facebook (2004) and YouTube (2005) emerged. AJAX technology allowed pages to update without reloading. Blogs, wikis, and content sharing became central.
+
+5. Mobile and Cloud Era (2010–2020)
+Smartphones and tablets transformed how people used the web. Responsive web design and mobile apps became standard. Cloud services and real-time collaboration (e.g., Google Docs) gained popularity.
+
+6. Web Today (2020–Present)
+The modern web is shaped by AI, immersive experiences (VR/AR), and privacy concerns. Web3 (blockchain-based web), progressive web apps (PWAs), and advanced JavaScript frameworks (like React and Vue) are influencing how websites are built and experienced.
+
+
