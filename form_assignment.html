@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gcom form</title>
+    <style>
+        label {
+      display: inline-flex;
+      width: 180px;
+    }
+    input[type="text"], input[type="email"], input[type="date"],input[type="tel"]{
+      width: 300px;
+      padding: 5px;
+      margin: 10px;
+    }
+    label[for="edu"],label[for="sex"],label[for="marital"]{
+        margin-left: 30px; display: inline;
+    }
+    .passport {
+      float: right;
+      border: 1px solid #000;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      padding-top: 40px;
+      margin-bottom: 20px;}
+    
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2 style="text-align: center;">GCOM IT ACADEMY</h2>
+    <p style="text-align:center;">
+      e-mail us: gcomgh@gmail.com, location: ROYCO HOUSE, NE<br>
+      contact us: 024 3154 204, 0541 430 781, 036 2028410, 0243 154 204
+    </p>
+    <h3 style="text-align:center;">(Registration Form)</h3>
+
+    <div class="passport">Passport Picture
+        <input type="file">
+    </div>
+        <label for="fname"> FIRST NAME</label>
+        <input type="text" name="fname" id=""><br>
+        <label for="sname"> SURNAME </label>
+        <input type="text" name="sname" id=""><br>
+        <label for="town"> HOME TOWN</label>
+        <input type="text" name="town" id=""><br>
+        <label for="s">SEX </label>
+        <label for="sex" > Female</label>
+        <input type="radio" name="sex" id="">
+        <label for="sex">Male</label>
+        <input type="radio" name="sex" id=""><br>
+        <label for="dob"> DATE OF BIRTH</label>
+        <input type="date" name="dob" id="">
+        <hr>
+        <label for="address">RESIDENTIAL ADDRESS</label>
+        <input type="text" name="address" id=""><br>
+        <label for="tel"> CONTACT NUMBER</label>
+        <input type="tel" name="tel" id=""><br>
+        <label for="profession">PROFESSION</label>
+        <input type="text" name="profession" id=""><br>
+        <label for="email">EMAIL ADDRESS</label>
+        <input type="email" name="email" id=""><br>
+        <label for="ed"> EDUCATIONAL STATUS</label>
+        <label for="edu" style="margin-left: 30px; display: inline;"> PRIMARY</label>
+        <input type="radio" name="edu" id="" >
+        <label for="edu" style="margin-left: 30px; display: inline;"> JHS</label>
+        <input type="radio" name="edu" id="">
+        <label for="edu"> SHS</label>
+        <input type="radio" name="edu" id="">
+        <label for="edu"> TETIARY</label>
+        <input type="radio" name="edu" id="">
+        <hr>
+        <label for="mar">MARITAL STATUS</label>
+        <label for="marital">SINGLE</label>
+        <input type="radio" name="marital" id="">
+        <label for="marital">MARRIED</label>
+        <input type="radio" name="marital" id=""><br>
+        <label for="religion">RELIGION</label>
+        <input type="text" name="religion" id=""><br>
+        <label for="Registration">DATE OF REGISTRATION:</label>
+        <input type="date" name="Registration"><br>
+        <label for="postal"> POSTAL ADDRESS</label>
+        <input type="text" name="postal" id=""><br>
+        <label>SIGNATURE:</label>
+        <input type="text">
+        <div style="margin-top:40px;">
+      <hr>
+      <p style="text-align:center;">FOR OFFICIAL USE ONLY</p>
+      
+        <label>(Signature):</label><input type="text">
+      </div>
+      
+        <label>(Date):</label><input type="text">
+      </div>
+    </div>
+
+
+    </form>
+</body>
+</html>

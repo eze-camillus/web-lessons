@@ -36,7 +36,7 @@
 <input type="color"><br>
 <input type="date"><br>
 <input type="datetime-local"><br>
-<input type="email"><br>
+<input type="email" required><br>
 <input type="file"><br>
 <input type="hidden"><br>
 <input type="image"><br>
@@ -56,6 +56,20 @@
 <textarea name="message" rows="10" cols="30">
 The cat was playing in the garden.
 </textarea>
+<input list="browsers">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist><br><br>
+    </form>
+    <form action="">
+      Surname: <input type="text" required ><br><br>
+      Email: <input type="email" required ><br><br>
+      Tel: <input type="tel" name="tel"  required><br><br>
+      <input type="submit" value="Submit">
     </form>
 </body>
 </html>
